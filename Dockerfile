@@ -19,5 +19,4 @@ COPY --from=builder ${DEPENDENCY}/BOOT-INF/classes /app
 ENV PORT 8080
 ENV TZ=EC
 EXPOSE $PORT
-ENTRYPOINT java -cp app:app/lib/* ec.edu.ups.msvc.usuarios.msvcusuarios.Main
-
+ENTRYPOINT java -cp app:app/lib/* ec.edu.ups.msvcusuarios.Main

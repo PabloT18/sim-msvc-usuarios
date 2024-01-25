@@ -28,6 +28,10 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-client-config'
+	implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-client-loadbalancer'
 }
 
 dependencyManagement {
